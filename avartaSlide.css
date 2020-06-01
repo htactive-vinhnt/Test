@@ -1,0 +1,134 @@
+.img-avata {
+  max-width: 1000px;
+  max-height: 250px;
+  vertical-align: middle;
+}
+
+.title-Slide-avata {
+  background-color: red;
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 5px 8px;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  top: 2;
+  height: 30px;
+  width: auto;
+  animation: hide-gradually-title 2s infinite;
+  animation-delay: 8s;
+}
+
+.mySlides-avata {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container-avata {
+  max-width: 1000px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-avata {
+  max-width: 1000px;
+  max-height: 250px;
+  vertical-align: middle;
+}
+
+.mySlides-avata {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container-avata {
+  max-width: 1000px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Loading animation */
+#loading-avata {
+  width: 558px;
+  height: 3px;
+  background: red;
+  animation: mymove 10s infinite; /*Start time from 1s to 10s*/
+  -webkit-animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  /*Run from 1px to 558 px*/
+  from {
+    width: 1px;
+  }
+  to {
+    width: 558px;
+  }
+}
+/* Hide gradually title-Slider */
+@keyframes hide-gradually-title {
+  from {
+    left: 2%;
+    background-color: red;
+    color: #f2f2f2;
+  }
+  to {
+    left: 5%;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(0, 0, 255, 0); /* transparent color */
+  }
+}

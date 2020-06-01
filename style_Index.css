@@ -33,6 +33,11 @@ body {
   background-color: none;
 }
 
+.header-Form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .item {
   float: left;
   text-align: right;
@@ -54,18 +59,19 @@ li a:hover {
 li a:focus {
   color: red;
 }
-
-
 form {
   width: 600px;
   height: 600px;
   margin-left: 20%;
   float: left;
+
 }
 
-.header-Form {
+.box-Form {
+  float: left;
+  align-items: center;
+  justify-items: center;
   margin-left: 10%;
-  margin-right: 10%;
 }
 
 input[type=text],[type=email], textarea {
@@ -101,7 +107,7 @@ label {
 } 
 
 
-button[type=submit] {
+button {
   background-color: rgb(212, 41, 41);
   color: white;
   padding: 12px 20px;
@@ -109,14 +115,14 @@ button[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   width: 150px;
+  margin-left: 20%;
 }
 
-button[type=submit]:hover {
+button:hover {
   background-color: #ca7627;
 }
 
 .infor-Contact {
-
   border-left: 1px solid rgb(209, 203, 203);
   width: 20%;
   float: left;
@@ -138,4 +144,12 @@ a {
 #map {
   width: 100%;
   height: 400px;
+}
+
+.avarta {
+  max-width: 200px;
+  max-height: 250px;
+  min-width: 50px;
+  min-height: 100px;
+
 }
